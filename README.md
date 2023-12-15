@@ -59,11 +59,6 @@ The experiments conducted revealed that the least-squares optimization method em
 
 If you have any questions or encounter any issues, please don't hesitate to reach out for assistance. Enjoy experimenting with GraphSLAM!
 
-### References
-
-[Python Robotics (Graph-Based SLAM by A. Sakai)](https://atsushisakai.github.io/PythonRobotics/modules/slam/graph_slam/graph_slam.html#graph-slam-for-a-real-world-se-2-dataset "Python Robotics (Graph-Based SLAM by A. Sakai)")
-[Python Robotics (Graph-Based SLAM by A. Sakai)](http://www2.informatik.uni-freiburg.de/~stachnis/pdf/grisetti10titsmag.pdf "PA Tutorial on Graph-Based SLAM by G. Grisetti et'al")
-
 ## 3D GraphSLAM Simulation
 ![GraphSLAM Optimization](3D_GraphSLAM/Re-immplementation.png)
 
@@ -71,6 +66,6 @@ If you have any questions or encounter any issues, please don't hesitate to reac
 
 ## References
 
-[Python Robotics (Graph-Based SLAM by A. Sakai)](https://atsushisakai.github.io/PythonRobotics/modules/slam/graph_slam/graph_slam.html#graph-slam-for-a-real-world-se-2-dataset "Python Robotics (Graph-Based SLAM by A. Sakai)")
-[A Tutorial on Graph-Based SLAM by G. Grisetti et'al"](http://www2.informatik.uni-freiburg.de/~stachnis/pdf/grisetti10titsmag.pdf "A Tutorial on Graph-Based SLAM by G. Grisetti et'al")
-[GraphSLAM Solver Toolbox](https://github.com/JeffLIrion/python-graphslam "GraphSLAM Solver Toolbox")
+- [Python Robotics (Graph-Based SLAM by A. Sakai)](https://atsushisakai.github.io/PythonRobotics/modules/slam/graph_slam/graph_slam.html#graph-slam-for-a-real-world-se-2-dataset "Python Robotics (Graph-Based SLAM by A. Sakai)")
+- [A Tutorial on Graph-Based SLAM by G. Grisetti et'al"](http://www2.informatik.uni-freiburg.de/~stachnis/pdf/grisetti10titsmag.pdf "A Tutorial on Graph-Based SLAM by G. Grisetti et'al")
+- [GraphSLAM Solver Toolbox](https://github.com/JeffLIrion/python-graphslam "GraphSLAM Solver Toolbox")
