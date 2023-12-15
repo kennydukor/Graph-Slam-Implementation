@@ -43,22 +43,34 @@ Here are some results and visualizations from the simulation:
 
 #### GraphSLAM Optimization - Robot Trajectory and Few Landmarks
 
-![Robot Trajectory](2D_GraphSLAM/images/nice_4.png)
+![GraphSLAM Optimization Good](2D_GraphSLAM/images/nice_4.png)
 
 In this plot, you can see the robot's trajectory (blue dots) and the true pose (green dots). Landmark positions are represented by yellow stars, and sensor measurements are shown as red lines.
 
 #### GraphSLAM Optimization - Robot Trajectory and More Landmarks
 
-![GraphSLAM Optimization](2D_GraphSLAM/images/bad_initialization.png)
+![GraphSLAM Optimization Bad](2D_GraphSLAM/images/bad_initialization.png)
 
 After running the GraphSLAM algorithm, you can visualize the optimized robot pose estimates.
 
 ### Conclusion
 
-This simulation is designed for educational purposes and may not reflect real-world scenarios accurately. It provides a simplified environment for understanding the basic principles of 2D GraphSLAM.
+The experiments conducted revealed that the least-squares optimization method employed in the GraphSLAM algorithm was sensitive to initialization. Noisy initial pose estimates led to significant localization errors. Furthermore, it was observed that as the number of landmarks increased, the performance of the GraphSLAM algorithm, as measured by localization error, deteriorated. More favorable results were achieved with fewer landmarks, suggesting that a higher number of landmarks introduced additional noise into the system that the algorithm struggled to account for. Increasing the number of iterations did not mitigate the adverse effects of having more landmarks on the algorithm’s performance.
 
 If you have any questions or encounter any issues, please don't hesitate to reach out for assistance. Enjoy experimenting with GraphSLAM!
 
 ### References
 
+[Python Robotics (Graph-Based SLAM by A. Sakai)](https://atsushisakai.github.io/PythonRobotics/modules/slam/graph_slam/graph_slam.html#graph-slam-for-a-real-world-se-2-dataset "Python Robotics (Graph-Based SLAM by A. Sakai)")
+[Python Robotics (Graph-Based SLAM by A. Sakai)](http://www2.informatik.uni-freiburg.de/~stachnis/pdf/grisetti10titsmag.pdf "PA Tutorial on Graph-Based SLAM by G. Grisetti et'al")
 
+## 3D GraphSLAM Simulation
+![GraphSLAM Optimization](3D_GraphSLAM/Re-immplementation.png)
+
+![GraphSLAM Optimization](3D_GraphSLAM/Sideview.png)
+
+## References
+
+[Python Robotics (Graph-Based SLAM by A. Sakai)](https://atsushisakai.github.io/PythonRobotics/modules/slam/graph_slam/graph_slam.html#graph-slam-for-a-real-world-se-2-dataset "Python Robotics (Graph-Based SLAM by A. Sakai)")
+[A Tutorial on Graph-Based SLAM by G. Grisetti et'al"](http://www2.informatik.uni-freiburg.de/~stachnis/pdf/grisetti10titsmag.pdf "A Tutorial on Graph-Based SLAM by G. Grisetti et'al")
+[GraphSLAM Solver Toolbox](https://github.com/JeffLIrion/python-graphslam "GraphSLAM Solver Toolbox")
