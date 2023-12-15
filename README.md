@@ -60,9 +60,10 @@ The experiments conducted revealed that the least-squares optimization method em
 If you have any questions or encounter any issues, please don't hesitate to reach out for assistance. Enjoy experimenting with GraphSLAM!
 
 ## 3D GraphSLAM Simulation
-![GraphSLAM Optimization](3D_GraphSLAM/Re-immplementation.png)
-
-![GraphSLAM Optimization](3D_GraphSLAM/Sideview.png)
+<div style="display: flex;">
+  <img src="3D_GraphSLAM/Re-immplementation.png" alt="Image 1" width="400"/>
+  <img src="3D_GraphSLAM/Sideview.png" alt="Image 2" width="400"/>
+</div>
 
 ## References
 
