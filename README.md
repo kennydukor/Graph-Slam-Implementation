@@ -45,7 +45,6 @@ Here are some results and visualizations from the simulation:
   <div>
     <h4>GraphSLAM Optimization - Robot Trajectory and Few Landmarks</h4>
     <img src="2D_GraphSLAM/images/nice_4.png" alt="Image 1" width="400"/>
-    <p>In this plot, you can see the robot's trajectory (blue dots) and the true pose (green dots). Landmark positions are represented by yellow stars, and sensor measurements are shown as red lines.</p>
   </div>
   
   <div>
